@@ -13,7 +13,21 @@ A real-time chat application built using WebSockets (Socket.IO) to enable instan
 
 ## Installation
 
-```bash
+## bash
 git clone https://github.com/Ferdicriuz/simple-chat-app.git
 cd simple-chat-app
 npm install
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- Socket.IO
+- HTML
+- CSS
+- JavaScript
+
+
+## Author
+
+Derek Wealth
