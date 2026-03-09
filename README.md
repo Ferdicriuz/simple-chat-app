@@ -1,33 +1,20 @@
-
-
 # Simple Chat App
 
-## Description
-A real-time chat application built using WebSockets (Socket.IO) to enable instant messaging between users.
+A mini real-time chat application built with Node.js, Express, and Socket.io.
 
 ## Features
+
 - Real-time messaging
-- Multiple users
-- WebSocket connection
-- Frontend + Backend integration
+- Broadcast messages to all connected users
+- Simple UI
 
 ## Installation
 
-## bash
-git clone https://github.com/Ferdicriuz/simple-chat-app.git
-cd simple-chat-app
 npm install
 
-## Technologies Used
+## Run
 
-- Node.js
-- Express.js
-- Socket.IO
-- HTML
-- CSS
-- JavaScript
+node server.js
 
-
-## Author
-
-Derek Wealth
+Open:
+http://localhost:3000
