@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Simple Chat App</title>
-  <link rel="stylesheet" href="style.css">
+<title>Room Chat App</title>
+<link rel="stylesheet" href="style.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
 </head>
 
 <body>
 
-<h2>Real-Time Chat</h2>
+    <section>
 
-<ul id="messages"></ul>
+<div class="join-container">
 
-<input id="messageInput" placeholder="Type a message">
-<button id="sendBtn">Send</button>
+<h2>Join Chat</h2>
 
+<input id="username" placeholder="Username">
+
+<select id="room">
+<option value="General">General</option>
+<option value="Sports">Sports</option>
+<option value="Tech">Tech</option>
+</select>
+<br>
+
+<button id="joinBtn">Join</button>
+
+</div>
+
+<div class="chat-container" style="display:none">
+
+<div class="users">
+<h3>Users</h3>
+<ul id="userList"></ul>
+</div>
+
+<div class="chat">
+
+<ul class="chat-messages" id="messages"></ul>
+<div class="shift">
+<input id="msg" placeholder="Type message">
+<button id="sendBtn"><i class="fa fa-paper-plane"></i></button>
+</div>
+</div>
+
+</div>
+</section>
 <script src="/socket.io/socket.io.js"></script>
 <script src="script.js"></script>
 
