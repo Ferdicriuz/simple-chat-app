@@ -1,12 +1,13 @@
-# Simple Chat App
+# Room Based Chat App
 
-A mini real-time chat application built with Node.js, Express, and Socket.io.
+Real-time chat application using Node.js, Express and Socket.io.
 
 ## Features
 
-- Real-time messaging
-- Broadcast messages to all connected users
-- Simple UI
+- Multiple chat rooms
+- Username login
+- Live user list
+- Join/leave notifications
 
 ## Installation
 
@@ -18,3 +19,9 @@ node server.js
 
 Open:
 http://localhost:3000
+
+## Rooms
+
+- General
+- Sports
+- Tech
